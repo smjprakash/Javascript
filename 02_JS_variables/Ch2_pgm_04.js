@@ -6,6 +6,12 @@ console.log(score);
 
 score = 150;
 console.log(score);
+score = 400;
+console.log(score);
+var score2 = 600;
+console.log(score2);
+score2 = 750;
+console.log(score2);
 
 
 

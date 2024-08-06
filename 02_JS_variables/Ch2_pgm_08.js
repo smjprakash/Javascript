@@ -9,6 +9,10 @@ score = score + 50;
 console.log("New score: " + score);
 
 console.log("Way to go!");
+score = score + 100;
+console.log(score + ' Congratulations ') 
+    
+
 
 
 

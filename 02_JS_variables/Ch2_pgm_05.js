@@ -7,7 +7,10 @@ console.log(message);
 
 message = 'Congratulations! Your tweet has won a prize...';
 console.log(message);
-
+message = "Have a great day";
+console.log(message);
+console.log('Hello' + 'World');
+console.log('Congratulations ! ' + 'Your tweet has ' + 'won a prize...');
 
 
 /* Further Adventures

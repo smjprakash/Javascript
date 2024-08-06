@@ -1,15 +1,23 @@
 // Using dot notation to access property values
 
 var book;
+var book2;
+
 
 book = {
   title     : "The Hobbit",
 	author    : "J. R. R. Tolkien",
 	published : 1937
 };
+book = {
+	title     : "The Sphere",
+	  author    : "J. R. R. Tolkien",
+	  published : 1937
+  };
 
 console.log(book.title);
 console.log(book.author);
+console.log(book.published);
 
 
 

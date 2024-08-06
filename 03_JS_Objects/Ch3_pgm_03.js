@@ -3,14 +3,19 @@
 var book;
 
 book = {
-    title : "The Hobbit",
+    title : "There and back again",
     author : "J. R. R. Tolkien",
     published : 1937
 };
 
 console.log(book);
-
-
+var book2;
+book2 = {
+    title : "Romeo and Juliet",
+    author : "William Shakespeare",
+    published : 1931
+};
+console.log(book2);
 
 /* Further Adventures
  *

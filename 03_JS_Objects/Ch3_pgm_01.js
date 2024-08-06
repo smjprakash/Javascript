@@ -7,6 +7,12 @@ bookTitle = "The Hobbit";
 bookAuthor = "J. R. R. Tolkien";
 
 console.log(bookTitle + " by " + bookAuthor);
+var book2title = "Wings of Fire";
+var book2Author = "APJ Kalam";
+console.log(book2title + "by" + book2Author);
+books = {bookTitle:"Hamlet",bookAuthor:"shakespeare"};
+console.log(books);
+
 
 
 

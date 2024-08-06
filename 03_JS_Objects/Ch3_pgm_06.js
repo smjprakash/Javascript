@@ -8,7 +8,13 @@ bookName = "The Adventures of Tom Sawyer";
 book = {
     title : bookName
 };
+console.log(book);
 
+bookName = "Wings of Fire";
+book = {
+    title : bookName
+};
+console.log(book);
 
 
 /* Further Adventures

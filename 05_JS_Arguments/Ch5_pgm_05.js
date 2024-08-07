@@ -1,11 +1,18 @@
 // Using the square function
 
 var square;
+var cube;
+
 
 square = function (numberToSquare) {
   var result;
   result = numberToSquare * numberToSquare;
   console.log(numberToSquare + " * " + numberToSquare + " = " + result);
+};
+cube = function (numberToCube) {
+  var output;
+  output = numberToCube * numberToCube * numberToCube;
+  console.log(numberToCube + " * " + numberToCube + " * " + numberToCube  +  "=" + output);
 };
 
 square(10);
@@ -13,6 +20,9 @@ square(-2);
 square(1111);
 square(0.5);
 
+cube(3);
+cube(2.1);
+cube(40);
 
 
 /* Further Adventures

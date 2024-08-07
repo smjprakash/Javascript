@@ -1,16 +1,24 @@
 // A function with two arguments
 
 var showSum;
+var product;
 
 showSum = function (number1, number2) {
 	var total = number1 + number2;
 	console.log("The sum is " + total);
 };
 
+product = function (num1, num2) {
+	var prod = num1 * num2;
+	console.log("The product of " + num1 + " and " + num2 + " is " + prod);
+}
+
 showSum(30, 23);
 showSum(2.8, -5);
+showSum(2.8, -5);
+showSum(56, 74);
 
-
+product(4,5);
 
 /* Further Adventures
  *

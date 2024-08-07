@@ -39,3 +39,7 @@ var location = {
    *    instead of location.
    *
    */
+
+
+  console.log(Location.city);
+  

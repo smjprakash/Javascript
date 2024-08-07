@@ -8,12 +8,19 @@ player = {
     place: "The Dungeon of Doom",
     items: "a rusty key, The Sword of Destiny, a piece of cheese"
 };
+var player2 = {
+    name: "Kandra2",
+    health: 75,
+    place: "The Nestle castle",
+    items: "a chain, The Sword of fire, a piece of meat"
+
+}
 
 console.log(player.name);
 console.log(player.name + " is in " + player.place);
 console.log(player.name + " has health " + player.health);
 console.log("Items: " + player.items);
-
+console.log(player2);
 
 
 /* Further Adventures

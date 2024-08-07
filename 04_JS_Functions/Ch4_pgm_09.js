@@ -1,6 +1,11 @@
 // Using a function to display object properties
 
 var showMovieInfo;
+var movie= {
+    title : "The Lord of the rings",
+    actors : "Tom Cruse, Julina",
+    directors : 'Stephen , John'
+}
 
 showMovieInfo = function () {
   console.log("Movie information for " + movie.title);
@@ -10,7 +15,7 @@ showMovieInfo = function () {
   console.log("------------------------------");
 };
 
-
+showMovieInfo()
 
 /* Further Adventures
  *

@@ -3,15 +3,20 @@
 var sayHello;
 
 sayHello = function () {
-	console.log("Hello World!");
+	console.log("Hello \nWorld ");
 };
 
 sayHello();
 sayHello();
 sayHello();
 
-
-
+var greet = "Hello World";
+function hai() {
+	for (let i=0; i<greet.length; i++){
+		console.log(greet[i])
+	}
+}
+hai();
 /* Further Adventures
  *
  * 1) Change the message from the sayHello function.

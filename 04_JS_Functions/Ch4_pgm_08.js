@@ -7,12 +7,19 @@ displayMenu = function () {
 	console.log("(1) Print log");
 	console.log("(2) Upload file");
 	console.log("(9) Quit");
+	console.log("(0) Shutdown");
 };
 
 displayMenu();
 
-
-
+displayMyMenu = function() {
+	console.log("Please choose an option:");
+	console.log("(green) Proceed");
+	console.log("(Yellow) Prepare");
+	console.log("(Red) Stop");
+	
+}
+displayMyMenu();
 /* Further Adventures
  *
  * 1) Add two more options to the displayMenu

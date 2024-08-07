@@ -19,6 +19,12 @@ showMovieInfo = function () {
 };
 
 movie = movie1;
+movie2 = {
+  title: "OPeration Red Sea",
+  actors: "Peter Parker, Jones kathy",
+  directors: "Micheal , RJordean"
+};
+movie = movie2;
 
 showMovieInfo();
 

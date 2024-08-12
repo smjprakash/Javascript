@@ -27,10 +27,17 @@ showPlayerInfo = function (playerName, playerPlace, playerHealth) {
     showPlayerPlace(playerName, playerPlace);
     showPlayerHealth(playerName, playerHealth);
 
-    console.log("----------------------------");
-    console.log("");
-};
+    showLine();
+    showBlankLine();
+    };
+    
+    showBlankLine = function() {
+        console.log("");
+    }
 
+showLine = function() {
+    console.log("----------------------------");
+}
 showPlayerInfo("Kandra", "The Dungeon of Doom", 50);
 showPlayerInfo("Dax", "The Old Library", 40);
 

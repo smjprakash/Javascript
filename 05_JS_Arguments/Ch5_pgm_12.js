@@ -20,8 +20,8 @@ player2 = {
     health: 40
 };
 
-showPlayerPlace(player1.name, player1.place);
-showPlayerPlace(player2.name, player2.place);
+showPlayerPlace(player1.name.substring(0,1), player1.place);
+showPlayerPlace(player2.name.substring(0,1), player2.place);
 
 
 

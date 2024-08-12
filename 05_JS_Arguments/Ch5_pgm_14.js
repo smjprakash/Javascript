@@ -41,9 +41,14 @@ var player2 = {
 showPlayerInfo(player1.name, player1.place, player1.health);
 showPlayerInfo(player2.name, player2.place, player2.health);
 
+showLine = function(linelen) {
+    line = "********************************";
+    console.log(line.substring(0,linelen));
+    console.log(line.substring(0,1)+" " + player1.name + " "+line.substring(0,1) )
+    console.log(line.substring(0,linelen));
+}
 
-
-
+showLine(10);
 /* Further Adventures
  *
  * 1) Define a showLine function with a parameter
